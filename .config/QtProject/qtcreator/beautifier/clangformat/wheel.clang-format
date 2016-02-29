@@ -1,0 +1,1 @@
+BreakBeforeBraces: Allman, IndentWidth: 4, TabWidth: 4, UseTab: ForIndentation, IndentCaseLabels: true, ColumnLimit: 160, AllowShortIfStatementsOnASingleLine: true, SpaceAfterControlStatementKeyword: false, AllowShortLoopsOnASingleLine: true, NamespaceIndentation: All, AlwaysBreakTemplateDeclarations: false, Cpp11BracedListStyle: true

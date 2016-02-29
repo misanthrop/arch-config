@@ -1,0 +1,11 @@
+[user]
+	name = Misanthrop
+	email = misanthrop.vg@gmail.com
+[push]
+	default = simple
+[color]
+	ui = true
+[core]
+	editor = mcedit
+[alias]
+	hist = log --pretty='%Cred%h%Creset%C(yellow)%d%C(cyan) %s %Cgreen(%cr) %C(bold blue)%an%Creset %Cblue[%ae]%Creset' --graph
