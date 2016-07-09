@@ -9,7 +9,7 @@
 !/.config/lxpanel
 !/.config/lxterminal
 !/.config/mc
-!/.config/openbox
+!/.config/openbox/*
 !/.config/QtProject/QtCreator.conf
 !/.config/QtProject/qtcreator/beautifier/clangformat/wheel.clang-format
 !/.config/QtProject/qtcreator/styles/deepdark.xml
