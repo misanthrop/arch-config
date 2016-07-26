@@ -6,12 +6,12 @@
 !/.xinitrc
 !/.zshrc
 !/.config/gtk-3.0/settings.ini
-!/.config/lxpanel
+!/.config/lxpanel/default/panels/*
 !/.config/lxterminal
 !/.config/mc
 !/.config/openbox/*
 !/.config/QtProject/QtCreator.conf
-!/.config/QtProject/qtcreator/beautifier/clangformat/wheel.clang-format
+!/.config/QtProject/qtcreator/beautifier/clangformat/wheel/.clang-format
 !/.config/QtProject/qtcreator/styles/deepdark.xml
 !/.config/QtProject/qtcreator/themes/deepdark.creatortheme
 
