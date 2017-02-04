@@ -6,6 +6,6 @@
 [color]
 	ui = true
 [core]
-	editor = mcedit
+	editor = micro
 [alias]
-	hist = log --pretty='%Cred%h%Creset%C(yellow)%d%C(cyan) %s %Cgreen(%cr) %C(bold blue)%an%Creset %Cblue[%ae]%Creset' --graph
+	hist = log --pretty='%Cred%h%C(auto) %s %Cgreen(%cr) %C(magenta)%an <%ae>%Creset' --graph

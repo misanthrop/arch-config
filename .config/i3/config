@@ -40,8 +40,9 @@ bindsym $mod+Shift+$down move down
 bindsym $mod+Shift+$up move up
 bindsym $mod+Shift+$right move right
 
-for_window [class=".*"] border normal 0
-for_window [class="Chromium"] border none
+for_window [class=".*"] border none
+#for_window [class=".*"] border normal 0
+#for_window [class="Chromium"] border none
 bindsym $mod+p title_format "%class"
 
 # split in horizontal orientation
@@ -110,6 +111,12 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+q exec i3-msg exit
 
+for_window [class="gnome-terminal-server"] resize set 480 480
+bindsym $mod+Mod1+$left  resize shrink width 10 px or 10 ppt
+bindsym $mod+Mod1+$right resize grow width 10 px or 10 ppt
+#bindsym $down       resize grow height 10 px or 10 ppt
+#bindsym $up         resize shrink height 10 px or 10 ppt
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -136,8 +143,8 @@ client.urgent           #775522 #111111 #bbbbbb #900000   #900000
 client.placeholder      #000000 #0c0c0c #bbbbbb #000000   #0c0c0c
 client.background       #111111
 
-bar {
-	position top
-	status_command i3status
-}
+#bar {
+#	position top
+#	status_command i3status
+#}
 	

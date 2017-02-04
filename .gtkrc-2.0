@@ -1,6 +1,10 @@
-gtk-theme-name="DeepDark"
+# DO NOT EDIT! This file will be overwritten by LXAppearance.
+# Any customization should be done in ~/.gtkrc-2.0.mine instead.
+
+include "/home/sasha/.gtkrc-2.0.mine"
+gtk-theme-name="Numix-SX-FullDark"
 gtk-icon-theme-name="Adwaita"
-gtk-font-name="Sans 12"
+gtk-font-name="Sans 14"
 gtk-cursor-theme-name="Adwaita"
 gtk-cursor-theme-size=18
 gtk-toolbar-style=GTK_TOOLBAR_BOTH_HORIZ

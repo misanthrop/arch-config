@@ -6,6 +6,7 @@
 !/.xinitrc
 !/.zshrc
 !/.config/gtk-3.0/settings.ini
+!/.config/awesome/*
 !/.config/lxpanel/default/panels/*
 !/.config/lxterminal
 !/.config/mc
@@ -16,3 +17,6 @@
 !/.config/QtProject/qtcreator/themes/deepdark.creatortheme
 
 !/.**/
+.cargo/
+.cache/
+.local/
